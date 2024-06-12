@@ -12,8 +12,8 @@ The GC content, or guanine-cytosine content, of a DNA sequence is the percentage
 Write a Python function called `calculate_gc_content(fasta_file)` that takes the path to a FASTA file as input and returns a dictionary containing the header names as keys and their corresponding GC content as values.
 
 ### Example
->Sequence1
-ATCGATCGATCGATCG
+>'>Sequence1
+ATCGATCGATCGATCG'
 
 - Number of Gs = 4
 - Number of Cs = 4
