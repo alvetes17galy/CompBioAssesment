@@ -12,7 +12,7 @@ The GC content, or guanine-cytosine content, of a DNA sequence is the percentage
 Write a Python function called `calculate_gc_content(fasta_file)` that takes the path to a FASTA file as input and returns a dictionary containing the header names as keys and their corresponding GC content as values.
 
 ### Example
->>Sequence1<br>
+> >Sequence1<br>
 ATCGATCGATCGATCG
 
 - Number of Gs = 4
@@ -29,7 +29,7 @@ Analyzing the patterns of specific nucleotides within DNA sequences can provide 
 Write a Python function called `longest_consecutive_a(fasta_file)` that takes the path to a FASTA file as input and returns a dictionary containing the header names as keys and the length of the longest consecutive subsequence of 'A' as values.
 
 ### Example
->>Sequence1<br>
+> >Sequence1<br>
 ATCGAAAATCGAAAATCG
 
 
