@@ -6,20 +6,21 @@ Analyzing the nucleotide composition and patterns within DNA sequences in bioinf
 
 The GC content, or guanine-cytosine content, of a DNA sequence is the percentage of nucleotides in the sequence that are either guanine (G) or cytosine (C). The GC content is calculated using the following formula:
 
-\[ \text{GC content} = \left( \frac{\text{number of Gs} + \text{number of Cs}}{\text{total number of nucleotides}} \right) \times 100 \]
+GC content = ((number of Gs + number of Cs) / total number of nucleotides) * 100
 
 ### Task
 Write a Python function called `calculate_gc_content(fasta_file)` that takes the path to a FASTA file as input and returns a dictionary containing the header names as keys and their corresponding GC content as values.
 
 ### Example
->Sequence1
+>'>Sequence1<br>
 ATCGATCGATCGATCG
 
 - Number of Gs = 4
 - Number of Cs = 4
 - Total number of nucleotides = 16
 
-GC content = \(\left( \frac{4 + 4}{16} \right) \times 100 = 50\%\)
+GC content = ((4 + 4) / 16) * 100 = 50%
+
 
 ## Part 2: Identifying the Longest Consecutive Subsequence of 'A'
 
@@ -29,7 +30,7 @@ Analyzing the patterns of specific nucleotides within DNA sequences can provide 
 Write a Python function called `longest_consecutive_a(fasta_file)` that takes the path to a FASTA file as input and returns a dictionary containing the header names as keys and the length of the longest consecutive subsequence of 'A' as values.
 
 ### Example
->Sequence1
+>'>Sequence1<br>
 ATCGAAAATCGAAAATCG
 
 
